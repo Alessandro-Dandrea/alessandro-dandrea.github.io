@@ -51,4 +51,5 @@ img {
 /* Main nav */
 .menu {
     display:flex;
+    list-style-type: none;
 }
