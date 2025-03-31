@@ -1,5 +1,9 @@
 /*Basic CSS from https://riggraz.dev/no-style-please/*/
 
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     background: #dadacc
