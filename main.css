@@ -55,12 +55,19 @@ img {
 /* Main nav */
 .menu ul{
     list-style-type: none;
-    display:flex;
     border: 1px solid red;
     margin: 0;
     padding: 0;
+    display:flex;
+    flex-direction: row;
 }
 
-.menu-link, .brand-link {
+.menu-link li {
     text-decoration: none;
+    justify-content: flex-start;
+}
+
+.brand-link li {
+    text-decoration: none;
+    justify-content: flex-end;
 }
