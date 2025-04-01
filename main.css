@@ -71,3 +71,15 @@ img {
     text-decoration: none;
     justify-content: flex-end;
 }
+
+.container-assistants {
+    max-width: 100%;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+
+.assistant-pic {
+    justify-content: center;
+}
