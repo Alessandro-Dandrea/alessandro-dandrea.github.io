@@ -54,7 +54,7 @@ img {
 
 /* Main nav */
 .top-menu-container {
-
+    border-bottom: 2px solid #000;
 }
 .top-menu {
     display:flex;
