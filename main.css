@@ -58,16 +58,17 @@ img {
 }
 .top-menu {
     display:flex;
-    justify-content: center;
+    justify-content: justify;
+    align-items: center;
 }
 
 .menu-link li {
-    list-style: none;
+    list-style-type: none;
     text-decoration: none;
 }
 
 .brand-link li {
-    list-style: none;
+    list-style-type: none;
     text-decoration: none;
 }
 
