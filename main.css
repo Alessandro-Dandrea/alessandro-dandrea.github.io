@@ -45,7 +45,8 @@ img {
 a {
     color: #000000;
     text-decoration: none;
-    transition: all 2s ease-in-out
+    transition: all 2s ease-in-out;
+    cursor: pointer;
 }
 
 /* Main nav */
