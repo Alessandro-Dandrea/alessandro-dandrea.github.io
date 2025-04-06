@@ -48,20 +48,20 @@ a {
     text-decoration-color: #21ff21;
     text-decoration-style: solid;
     text-decoration-thickness: 3px;
-    transition: all 2s ease-in-out;
+    transition: all 4s ease-in-out;
 }
 
 a:hover {
     color: #000000;
     text-decoration: none;
-    transition: all 2s ease-in-out;
+    transition: all 4s ease-in-out;
     cursor: pointer;
 }
 
 a:focus {
     color: #000000;
     text-decoration: none;
-    transition: all 2s ease-in-out;
+    transition: all 4s ease-in-out;
     cursor: pointer;
 }
 
