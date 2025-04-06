@@ -43,10 +43,10 @@ img {
 }
 
 /* Main nav */
-.top-menu-container {
+.top-nav-container {
     border-bottom: 2px solid #000;
 }
-.top-menu {
+.top-nav {
     display:flex;
     justify-content: space-evenly;
     align-items: center;
