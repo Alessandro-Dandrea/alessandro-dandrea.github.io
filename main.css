@@ -56,7 +56,7 @@ img {
     text-decoration: none;
 }
 
-/*About Me Page*/
+/*About Me Page specific CSS*/
 
 .container-assistants {
     max-width: 100%;
@@ -69,3 +69,12 @@ img {
 .assistant-pic {
     justify-content: center;
 }
+/*
+.about-me-text-container {
+
+}
+
+.photo-container {
+
+}
+*/
