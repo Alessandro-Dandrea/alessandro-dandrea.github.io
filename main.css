@@ -79,12 +79,23 @@ a {
 .assistant-pic {
     justify-content: center;
 }
-/*
-.about-me-text-container {
-
-}
 
 .photo-container {
-
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid red;
 }
-*/
+
+.about-me-text-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid red;
+}
