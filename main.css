@@ -9,7 +9,7 @@ html {
 
 body {
     color: black;
-    background: #eeeee7;
+    background: #fffeef;
     font-family: monospace;
     font-size: 16px;
     line-height: 1.4;
@@ -53,8 +53,8 @@ a {
 
 a:hover {
     color: #000000;
-    text-decoration: none;
-    transition: all 4s ease-in-out;
+    text-decoration: underline;
+    text-decoration-style: wavy;
     cursor: pointer;
 }
 
