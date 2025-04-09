@@ -9,7 +9,7 @@ html {
 
 body {
     color: black;
-    background: #eeeee7;
+    background: #fffeef;
     font-family: monospace;
     font-size: 16px;
     line-height: 1.4;
@@ -48,21 +48,46 @@ a {
     text-decoration-color: #21ff21;
     text-decoration-style: solid;
     text-decoration-thickness: 3px;
-    transition: all 4s ease-in-out;
 }
 
 a:hover {
     color: #000000;
-    text-decoration: none;
-    transition: all 4s ease-in-out;
+    text-decoration: underline;
+    text-decoration-color: #21ff21;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
     cursor: pointer;
 }
 
 a:focus {
     color: #000000;
-    text-decoration: none;
-    transition: all 4s ease-in-out;
+    text-decoration: underline;
+    text-decoration-color: #21ff21;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
     cursor: pointer;
+}
+
+/*Firefox media query for wavy underline*/
+
+@-moz-document url-prefix() {
+  a:hover {
+      color: #000000;
+      text-decoration: underline;
+      text-decoration-color: #21ff21;
+      text-decoration-style: wavy;
+      text-decoration-thickness: 2px;
+      cursor: pointer;
+  }
+
+    a:focus {
+        color: #000000;
+        text-decoration: underline;
+        text-decoration-color: #21ff21;
+        text-decoration-style: wavy;
+        text-decoration-thickness: 3px;
+        cursor: pointer;
+    }
 }
 
 /* Main nav */
@@ -85,8 +110,6 @@ a:focus {
 }
 /*About Me Page specific CSS*/
 /* Horiziontal lines between element in menu: https://medium.com/@brajagopal.tripathi/how-to-color-padding-in-css-a82e14457549 */
-
-
 
 .container-assistants {
     max-width: 100%;
