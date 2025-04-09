@@ -123,24 +123,13 @@ a:focus {
     justify-content: center;
 }
 
-/*
-.photo-container {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0;
-    border: 1px solid red;
+@media only screen and (min-width: 768px) {
+    .dual-column-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+        border: 1px solid red;
+    }
 }
-
-.about-me-text-container {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0;
-    border: 1px solid red;
-}
-*/
