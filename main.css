@@ -108,28 +108,3 @@ a:focus {
     text-decoration: none;
     color: #000000
 }
-/*About Me Page specific CSS*/
-/* Horiziontal lines between element in menu: https://medium.com/@brajagopal.tripathi/how-to-color-padding-in-css-a82e14457549 */
-
-.container-assistants {
-    max-width: 100%;
-    border: 1px solid red;
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-}
-
-.assistant-pic {
-    justify-content: center;
-}
-
-@media only screen and (min-width: 768px) {
-    .dual-column-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        padding: 0;
-        border: 1px solid red;
-    }
-}
