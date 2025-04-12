@@ -18,6 +18,9 @@
         margin: 0 auto;
         padding: 0;
     }
+    .dual-column-container > figcaption {
+        padding: 2px;
+    }
     .about-me-text-container {
         max-width: 60%;
     }
