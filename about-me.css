@@ -18,6 +18,9 @@
         margin: 0 auto;
         padding: 0;
     }
+    .dual-column-container figure {
+        align-self: flex-start;
+    }
     .image-figcaption {
         padding-top: 20px;
     }
