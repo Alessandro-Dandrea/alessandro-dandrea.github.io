@@ -108,3 +108,7 @@ a:focus {
     text-decoration: none;
     color: #000000
 }
+
+.footer-container {
+    border-top: 3px solid #000;
+}
