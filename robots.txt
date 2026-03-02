@@ -1,0 +1,4 @@
+#User-Agents
+Disallow:
+
+#Sitemaps
