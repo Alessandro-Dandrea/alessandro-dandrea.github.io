@@ -2,3 +2,4 @@
 Disallow:
 
 # Sitemaps
+Sitemap: https://www.alessandro-dandrea.com/sitemap.xml
