@@ -9,7 +9,9 @@
         <meta name="author" content="Alessandro D'Andrea">
         <meta name="robots" content="index, follow">
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="about-me.css">
         <link rel="preload" fetchpriority="high" href="main.css" as="style">
+        <link rel="preload" fetchpriority="high" href="about-me.css" as="style">
         <link rel="icon" href="https://avatars.githubusercontent.com/u/63164107?s=400&u=3bcbeb999e21110a184204b7dcefba90c45ceb6a&v=4" type="image/png">
         <script type="application/ld+json">
         {
@@ -39,7 +41,7 @@
         <nav class="top-nav-container">
           <ul class="top-nav">
             <li class="top-nav-link"><a href="#" role="button" title="homepage button">Homepage</a></li>
-            <li class="top-nav-link"><a href="https://www.alessandro-dandrea.com/about-me" title="about-me page button" role="button">About me</a></li>
+            <li class="top-nav-link"><a href="#about-me" title="about-me section button" role="button">About me</a></li>
             <li class="top-nav-link"><a href="https://www.linkedin.com/in/alessandro-d-andrea-seo/" title="My LinkedIn profile" role="button"><img src="https://raw.githubusercontent.com/Alessandro-Dandrea/alessandro-dandrea.github.io/refs/heads/main/linkedin_bw_icon.png" alt="LinkedIn Logo" height="32px" width="32px"></a></li>
             <li class="top-nav-link"><a href="https://github.com/Alessandro-Dandrea" title="My GitHub profile" role="button"><img src="https://raw.githubusercontent.com/Alessandro-Dandrea/alessandro-dandrea.github.io/refs/heads/main/github-logo.png" alt="GitHub Logo" height="32px" width="32px"></a></li>
             
@@ -54,12 +56,74 @@
           </ul>
         </nav>
       </header>
-      <main>
-          <h1>Hey everyone, here is Alessandro</h1>
+      <main class="homepage-main">
+          <h1 id="about-me">Hey everyone, here is Alessandro</h1>
           <h2>Not Andrea, please. Alessandro.</h2>
           <p><a href="https://www.alessandro-dandrea.com/about-me.html">Alessandro D'Andrea</a> is an SEO Manager in Facile.it. Has 8 years of professional experience in technical SEO, content strategies, and off-site SEO.</p>
           <p>He's also a passionate learner of programming, languages, and good ol'strategic marketing.</p>
           <p>In his spare time, he loves to go hiking, read a book, watch some anime, or try the next techie thing.</p>
+          <section class="dual-column-container">
+              <figure>
+                  <img src="https://avatars.githubusercontent.com/u/63164107?s=400&u=3bcbeb999e21110a184204b7dcefba90c45ceb6a&v=4" fetchpriority="high" alt="Alessandro D'Andrea" width="300px" height="300px">
+                  <figcaption class="image-figcaption">Alessandro D'Andrea</figcaption>
+              </figure>
+              <section class="about-me-text-container">
+                  <p>I've extensive experience in SEO, some in online advertising and I'm a passionate rookie in product management.</p>
+                  <p>In pure, cold numbers:</p>
+                  <ul>
+                      <li>Almost 8 years of all-round experience in SEO: technical, off-site, onsite, and content.</li>
+                      <li>More than 3 years of experience in Google Ads, Bing Ads, Meta Ads and LinkedIn Ads.</li>
+                      <li>More than 1 year of experience as Product Owner.</li>
+                  </ul>
+              </section>
+          </section>
+          <section class="resume-container">
+              <h2>A very short resume</h2>
+              <ul>
+                  <li><b>SEO Manager - Facile.it - 2021 > Present</b>:I'm currently working as SEO Manager in <a href="https://www.facile.it/" target="_blank" rel="noopener noreferrer">Facile.it</a>, the leading price comparison website in Italy.</li>
+                  <li><b>SEO Manager - MiaCar.it - 2021 > 2024</b>:I've been SEO manager and strategist for the website <a href="https://www.miacar.it/" target="_blank" rel="noopener noreferrer">MiaCar.it</a>, a great player in both the car sale and the long term rental cars markets.</li>
+                  <li><b>Senior SEO Specialist - siteBysite - 2020 > 2021</b>: I've joined <a href="https://www.sitebysite.it" rel="noopener noreferrer">siteBysite (now SAY agency)</a> as Senior SEO Specialist, working on a portfolio of 26 websites.</li>
+                  <li><b>SEO and PPC Specialist - Clickable - 2017 > 2020</b>: I've kickstarted my career in marketing in <a href="https://www.clickable.it" rel="noopener noreferrer">Clickable</a>, which I joined as trainee first, and where I've gained my first significative experience in both SEO and PPC campagins management.</li>
+              </ul>
+          </section>
+          <section class="speaker-and-publishing">
+              <h2>Speaking at conferences</h2>
+              <p>I've had the luck and the pleasure of being <b>speaker</b> at the most interesting and famous Italian events in the digital marketing environment.</p>
+              <table>
+                  <tr>
+                      <th>Event</th>
+                      <th>Year</th>
+                      <th>Title of the deck</th>
+                      <th>Quick overview</th>
+                  </tr>
+                  <tr>
+                      <td>Advanced SEO Tools</td>
+                      <td>2023</td>
+                      <td>Entity Footprint: a metric and a method for Semantic SEO</td>
+                      <td>The deck presents the "Entity Footprint", a metric and a method for evaluate the usage of entities in a corpus of text. It uses Python and the Google NLP API. It's a metric we created in Facile.it and we're very proud of it.</td>
+                  </tr>
+                  <tr>
+                      <td>Search Marketing Connect</td>
+                      <td>2023</td>
+                      <td>Entity Footprint: a metric and a method for Semantic SEO</td>
+                      <td>The deck presents the "Entity Footprint", a metric and a method for evaluate the usage of entities in a corpus of text. It uses Python and the Google NLP API. It's a metric we created in Facile.it and we're very proud of it.</td>
+                  </tr>
+              </table>
+              <ul>
+                  <li><b>Search Marketing Connect</b></li>
+                  <li><b>Advanced SEO Tools</b></li>
+                  <li><b>Start'23 by Learnn</b></li>
+                  <li><b>MB Summit</b></li>
+              </ul>
+          </section>
+          <section class="seo-teacher">
+              <h2>Teaching SEO</h2>
+              <p>I've been teaching SEO in two different flavours in the <a href="https://learnn.com/" rel="noopener noreferrer">Learnn platform</a> (and I'm still featured in the homepage!! ✌️):</p>
+              <ul>
+                  <li><b>Advanced SEO</b>: a 6 hours course about all of the different ins-and-outs of SEO. Starting from the strategic approach, forward to the on-page and closing with backlinks.</li>
+                  <li><b>Local SEO</b>: a 1-hour long course focused on the 101 of Local SEO.</li>
+              </ul>
+          </section>
           <h2>Why this thing now?</h2>
           <p>This is just a very raw website created directly using GitHub pages. <br>
             I don't need a super fancy dynamic website since I already have a <a href="https://lievito.substack.com/">Substack in Italian</a>, <a href="https://alessandrodandrea.substack.com/">one in English</a>, and <a href="https://www.linkedin.com/in/alessandro-d-andrea-seo/">my super LinkedIn account</a>.<br>
