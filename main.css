@@ -261,3 +261,12 @@ a:focus {
     background-color: #000;
     color: #fffeef;
 }
+
+.video-and-interviews iframe {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    margin: 0 0 1rem;
+}
