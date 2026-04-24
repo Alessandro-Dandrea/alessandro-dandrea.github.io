@@ -38,6 +38,10 @@ img {
     margin: 0 auto
 }
 
+figure:first-of-type img {
+    border-radius: 50%;
+}
+
 a {
     color: #000000;
     text-decoration: underline;
