@@ -270,3 +270,24 @@ a:focus {
     height: auto;
     margin: 0 0 1rem;
 }
+
+@media only screen and (min-width: 768px) {
+    .video-and-interviews {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+    .video-and-interviews h2,
+    .video-and-interviews h3 {
+        flex: 0 0 100%;
+    }
+
+    .video-and-interviews iframe {
+        flex: 1 1 calc(50% - 0.5rem);
+        width: calc(50% - 0.5rem);
+        max-width: calc(50% - 0.5rem);
+        margin: 0;
+    }
+}
