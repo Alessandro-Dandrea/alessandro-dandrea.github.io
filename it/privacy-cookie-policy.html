@@ -17,7 +17,7 @@
             <li class="top-nav-link"><a href="https://www.linkedin.com/in/alessandro-d-andrea-seo/" title="Il mio profilo LinkedIn" role="button"><img src="https://res.cloudinary.com/da8d1mjn6/image/upload/v1774625074/LinkedIn_icon_wplvkf.svg" alt="Logo LinkedIn" height="32px" width="32px"></a></li>
             <li class="top-nav-link"><a href="https://github.com/Alessandro-Dandrea" title="My GitHub profile" role="button"><img src="https://res.cloudinary.com/da8d1mjn6/image/upload/v1774624364/github_xufrog.svg" alt="GitHub Logo" height="32" width="32"></a></li>
             <li class="top-nav-link">
-                <button class="theme-toggle-button" type="button" data-theme-toggle aria-label="Attiva tema scuro">Modo notte</button>
+                <button class="theme-toggle-button" type="button" data-theme-toggle aria-label="Attiva tema scuro">🌙</button>
             </li>
             <!-- LANGUAGE SELECTOR START -->
             <li class="top-nav-link language-selector">
@@ -225,8 +225,8 @@
 
     var isItalian = document.documentElement.lang.toLowerCase().indexOf("it") === 0;
     var labels = isItalian
-      ? { light: "Modo giorno", dark: "Modo notte", darkAria: "Attiva tema scuro", lightAria: "Attiva tema chiaro" }
-      : { light: "Light mode", dark: "Night mode", darkAria: "Enable dark mode", lightAria: "Enable light mode" };
+      ? { darkAria: "Attiva tema scuro", lightAria: "Attiva tema chiaro" }
+      : { darkAria: "Enable dark mode", lightAria: "Enable light mode" };
 
     function getPreferredTheme() {
       var savedTheme = localStorage.getItem(storageKey);
@@ -236,7 +236,7 @@
 
     function applyTheme(theme) {
       document.body.setAttribute("data-theme", theme);
-      button.textContent = theme === "dark" ? labels.light : labels.dark;
+      button.textContent = theme === "dark" ? "☀️" : "🌙";
       button.setAttribute("aria-label", theme === "dark" ? labels.lightAria : labels.darkAria);
     }
 
