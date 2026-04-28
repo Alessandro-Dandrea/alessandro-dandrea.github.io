@@ -112,28 +112,6 @@ a:focus {
     cursor: pointer;
 }
 
-/*Firefox media query for wavy underline*/
-
-@-moz-document url-prefix() {
-  a:hover {
-      color: var(--text-color);
-      text-decoration: underline;
-      text-decoration-color: var(--accent-color);
-      text-decoration-style: wavy;
-      text-decoration-thickness: 2px;
-      cursor: pointer;
-  }
-
-    a:focus {
-        color: var(--text-color);
-        text-decoration: underline;
-        text-decoration-color: var(--accent-color);
-        text-decoration-style: wavy;
-        text-decoration-thickness: 3px;
-        cursor: pointer;
-    }
-}
-
 /* Main nav */
 .top-nav-container {
     border-bottom: 3px solid var(--border-color);
