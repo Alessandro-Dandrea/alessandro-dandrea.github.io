@@ -219,6 +219,10 @@ body[data-theme="dark"] img[src*="github-logo.png"] {
     justify-content: center;
 }
 
+.image-figcaption {
+    text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
     .dual-column-container {
         max-width: 100%;
