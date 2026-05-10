@@ -3,3 +3,6 @@ Disallow:
 
 # Sitemaps
 Sitemap: https://www.alessandro-dandrea.com/sitemap.xml
+
+# Content Signals
+Content-Signal: ai-train=no, search=yes, ai-input=yes
